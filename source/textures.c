@@ -2460,3 +2460,7 @@ SceGxmTexture *vglGetGxmTexture(GLenum target) {
 		SET_GL_ERROR_WITH_RET(GL_INVALID_ENUM, NULL)
 	}
 }
+
+void glGetTexParameteriv(GLenum target, GLenum pname, GLint * params) {
+	// TODO: implement it
+}

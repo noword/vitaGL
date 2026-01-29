@@ -3562,3 +3562,11 @@ void vglShaderGxpBinary(GLsizei count, const GLuint *handles, const void *binary
 	sceGxmShaderPatcherRegisterProgram(gxm_shader_patcher, s->prog, &s->id);
 	s->unif_buf_size = sceGxmProgramGetDefaultUniformBufferSize(s->prog);
 }
+
+void glValidateProgram(GLuint program) {
+	// Do nothing, the status has been stored in the program->status
+}
+
+void glDetachShader(GLuint program, GLuint shader) {
+	// TODO: implement it
+}

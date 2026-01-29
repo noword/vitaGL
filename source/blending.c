@@ -450,3 +450,7 @@ void glColorMask(GLboolean red, GLboolean green, GLboolean blue, GLboolean alpha
 	else
 		change_blend_mask();
 }
+
+void glBlendColor(GLfloat red, GLfloat green, GLfloat blue, GLfloat alpha) {
+	// TODO: implement it
+}
